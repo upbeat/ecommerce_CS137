@@ -1,7 +1,26 @@
 /*style file*/
 
+/*used to center align entire page*/
+html {
+    display: table;
+    margin: auto;
+}
 
+body {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    font-family: arial;
+}
+
+/*"welcome" header*/
 h3 {
-  color: blue;
-  font-size: 40px;
+  font-size: 20px;
+  text-align: center;
+  height: 14px;
+}
+
+.links{
+  text-align:center;
+  style="text-decoration:none"
 }
