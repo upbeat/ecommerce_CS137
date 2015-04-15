@@ -30,12 +30,28 @@ div#contact{
   text:align: center;
   padding-top: 50px;
   padding-left: 100px;
+  float: right;
 }
 
-
+div #welcome {
+  padding-left: 150px;
+}
 
 div#links{
+  background-color: #ADD8E6;
+  height: 90px;
+}
 
+div#links a {
+  padding-left: 53px;
+  padding-right: 53px;
+  text-decoration: none;
+  color: #000;
+  height: 90px;
+  line-height: 90px;
+  display: block;
+  float: left;
+  border-left: 1px solid #7f8083;
 }
 
 #content{
