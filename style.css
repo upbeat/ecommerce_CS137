@@ -1,26 +1,52 @@
 /*style file*/
 
 /*used to center align entire page*/
-html {
-    display: table;
+/*html {
     margin: auto;
 }
+*/
 
 body {
-    display: table-cell;
     vertical-align: middle;
-    text-align:center;
     font-family: arial;
 }
 
-/*"welcome" header*/
-h3 {
-  font-size: 20px;
-  text-align: center;
-  height: 14px;
+
+div#page{
+  align: center;
+  margin:auto;
+  width:800px
 }
 
-.links{
-  text-align:center;
-  style="text-decoration:none"
+#header{
+  height: 170px;
+}
+
+div#logo{
+  float: left;
+}
+
+div#contact{
+  text:align: center;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+
+
+div#links{
+
+}
+
+#content{
+
+}
+
+#info{
+  float: left;
+  width: 500px;
+}
+
+#image{
+  float: right;
 }
