@@ -39,7 +39,7 @@ div #welcome {
 
 div#links{
   background-color: #ADD8E6;
-  height: 90px;
+  height: 60px;
 }
 
 div#links a {
@@ -47,8 +47,8 @@ div#links a {
   padding-right: 53px;
   text-decoration: none;
   color: #000;
-  height: 90px;
-  line-height: 90px;
+  height: 60px;
+  line-height: 60px;
   display: block;
   float: left;
   border-left: 1px solid #7f8083;
