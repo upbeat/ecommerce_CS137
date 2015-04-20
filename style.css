@@ -38,6 +38,10 @@ div #welcome {
   padding-left: 150px;
 }
 
+h1 {
+  margin-bottom: 0px;
+}
+
 div#links{
   background-color: #ADD8E6;
   height: 70px;
@@ -65,9 +69,13 @@ div#links a {
 }
 
 #image{
-
+  float: right;
 }
 
-footer {
+#ReaderImg {
+  padding-left: 5px;
+}
+
+#footer {
   text-align: center;
 }
