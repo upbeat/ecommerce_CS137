@@ -27,10 +27,11 @@ div#logo{
 }
 
 div#contact{
+  font-size: 20px;
   text:align: center;
   padding-top: 50px;
   padding-left: 100px;
-  float: right;
+  float: left;
 }
 
 div #welcome {
@@ -39,16 +40,16 @@ div #welcome {
 
 div#links{
   background-color: #ADD8E6;
-  height: 60px;
+  height: 70px;
 }
 
 div#links a {
-  padding-left: 53px;
-  padding-right: 53px;
+  padding-left: 47px;
+  padding-right: 47px;
   text-decoration: none;
   color: #000;
-  height: 60px;
-  line-height: 60px;
+  height: 70px;
+  line-height: 70px;
   display: block;
   float: left;
   border-left: 1px solid #7f8083;
@@ -64,5 +65,9 @@ div#links a {
 }
 
 #image{
-  float: right;
+
+}
+
+footer {
+  text-align: center;
 }
