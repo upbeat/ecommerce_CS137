@@ -8,7 +8,7 @@
 
 body {
     vertical-align: middle;
-    font-family: "Arial", "Times New Roman";
+    font-family: arial;
 }
 
 
@@ -27,66 +27,42 @@ div#logo{
 }
 
 div#contact{
-  font-size: 15px;
   text:align: center;
+  padding-top: 50px;
+  padding-left: 100px;
   float: right;
 }
 
 div #welcome {
-  text-align: center;
+  padding-left: 150px;
 }
 
 div#links{
-  height: 70px;
-  float: right;
-  padding-top: 60px;
+  background-color: #ADD8E6;
+  height: 60px;
 }
 
-div#links a{
-  padding: 12px;
-}
-
-
-#search {
-  float:right;
-  padding-right: 16px;
-}
-
-
-div#books_menu {
-  float: left;
-  height: 180px;
-
-}
-
-div#books_menu a{
+div#links a {
+  padding-left: 53px;
+  padding-right: 53px;
+  text-decoration: none;
+  color: #000;
+  height: 60px;
+  line-height: 60px;
   display: block;
-  padding-bottom: 20px;
+  float: left;
+  border-left: 1px solid #7f8083;
 }
 
 #content{
-  width: 800px;
-}
 
-#map_image{
-  padding-left: 5px;
-  float: left;
-}
-
-<<<<<<< HEAD
-#image{
-
-}
-
-footer {
-  text-align: center;
-=======
-#row_image{
-  float: right;
->>>>>>> origin/master
 }
 
 #info{
   float: left;
   width: 500px;
+}
+
+#image{
+  float: right;
 }
