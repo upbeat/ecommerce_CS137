@@ -1,0 +1,14 @@
+#row_image{
+  float: right;
+}
+
+div#books_menu {
+  float: left;
+  height: 180px;
+
+}
+
+div#books_menu a{
+  display: block;
+  padding-bottom: 20px;
+}

@@ -3,8 +3,6 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/style_contact_info.css">
-
   <title>Book Central - An eCommerce Website for books</title>
 </head>
 
@@ -19,7 +17,7 @@
       <!-- HEADER LINKS -->
       <div id="header_links">
         <a href="contact_info.html" style="text-decoration:none">Contact</a>
-        <a href="feedback.html" style="text-decoration:none">Feedback</a>
+        <a href="contact_info.html" style="text-decoration:none">Feedback</a>
       </div>
     </div>
 
@@ -37,23 +35,42 @@
     </div>
 
     <!-- HORIZONTAL LINE -->
-    <hr size="2">
+    <hr size="2
 
 
 
     <!-- INFO PARAGRAPH AND IMAGE -->
     <div id="content">
-      <div id="contact">
-        Contact Info:
-        <br /> 1965 Anteater Drive
-        <br /> Irvine, CA 92617
-        <br /> Tel: 949.111.1111
-        <br /> Email: bookcentral@gmail.com
-      </div>
+      <h1>GIVE US YOUR FEEDBACK!</h1>
+      <br>
+      
+      <form action="URL to form script" method="POST">
+        Your name:
+        <input type="text" name="realname"><br>
+        <br>
 
-      <div id="map_image">
-        <img src="img/mapLocation.png" alt="Eternal peace" height="275" width="390">
-      </div>
+        Your email:
+        <input type="text" name="email"><br>
+        <br>
+
+        Title of last purchased book:
+        <input type="text" name="book"><br>
+        <br>
+
+        Rate your satisfaction level: <br>
+        <br>
+        <input type="radio" name="Worst Book" value="Worst Book" checked>Worst Book
+        <input type="radio" name="Moderately Dissatisfied" value="Moderately Dissatisfied"> Moderately Dissatisfied
+        <input type="radio" name="Neutral" value="Neutral"> Neutral
+        <input type="radio" name="Enjoyed" value="Enjoyed"> Enjoyed
+        <input type="radio" name="Loved it" value="Loved it"> Loved it!
+        <br>
+        <br>
+        Your comments: <br>
+        <textarea name="comments" rows="15" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
     </div>
 
     <!-- HORIZONTAL LINE -->
