@@ -12,3 +12,8 @@ div#books_menu a{
   display: block;
   padding-bottom: 20px;
 }
+
+div #footer {
+  width: 800px;
+  float: right;
+}
