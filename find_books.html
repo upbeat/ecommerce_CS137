@@ -57,34 +57,61 @@
       <div id="row_image">
         <img src="img/rowOfBooks.jpg" alt="Eternal peace">
       </div> -->
+      <br>
+      <form id="feedback" action="" onsubmit="validateForm()">
+        <fieldset class ="fieldset">
+          <legend>Order Books</legend>
+          <table summary = "Find Books">
+            <tr valign = "top">
+              <td>Your Name:</td>
+              <td><input type ="text" name="name" size ="40" /></td>
+            </tr>
+            <tr valign = "top">
+              <td>Email Address:</td>
+              <td><input type ="text" name="email" size ="40" /></td>
+            </tr>
+          </table>
+
+          <table>
+            <tr valign = "top">
+              <td>Select from our vast collection of books!</td>
+              <td><select name ="genre">
+                <option> </option>
+                <option>Hunger Games - Suzanne Collins</option>
+                <option>Sherlock Holmes - Sir Conan Doyle</option>
+                <option>The BFG - Roald Dahl </option>
+                <option>Maze Runner - James Dashner </option>
+                <option>Pride and Prejudice - Jane Austen </option>
+            </tr>
+          </table>
+
+          <table>
+            <tr valign = "top">
+              <td>Select Location to Pickup Book</td>
+              <td><select name ="genre">
+                <option> </option>
+                <option>Book Central - Irivine </option>
+                <option>Langson Library - UCI</option>
+                <option>Barnes and Noble - Spectrum</option>
+            </tr>
+          </table>
+
+          <table>
+          <tr valign="top">
+            <td>Limited time offer:</td>
+            <td><input type="checkbox" name="discount" value="discount"> Take a 50% discount<br></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td align = "right">
+              <input type="submit" value = "Confirm Purchase" />
+              <input type ="reset" value ="Reset Form" />
+            </td>
+          </tr>
+          </table>
+        </fieldset>
+      </form>
     </div>
-    <form action="URL to form script" method="POST">
-      Your name:
-      <input type="text" name="realname"><br>
-      <br>
-
-      Your email:
-      <input type="text" name="email"><br>
-      <br>
-
-      Title of last purchased book:
-      <input type="text" name="book"><br>
-      <br>
-
-      Rate your satisfaction level: <br>
-      <br>
-      <input type="radio" name="Worst Book" value="Worst Book" checked>Worst Book
-      <input type="radio" name="Moderately Dissatisfied" value="Moderately Dissatisfied"> Moderately Dissatisfied
-      <input type="radio" name="Neutral" value="Neutral"> Neutral
-      <input type="radio" name="Enjoyed" value="Enjoyed"> Enjoyed
-      <input type="radio" name="Loved it" value="Loved it"> Loved it!
-      <br>
-      <br>
-      Your comments: <br>
-      <textarea name="comments" rows="15" cols="50"></textarea><br><br>
-
-      <input type="submit" value="Submit">
-    </form>
 
     <div id = "footer">
       <hr size="2">
