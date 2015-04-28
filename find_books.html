@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  <script type="text/javascript" src="javascript/check_find_books.js"></script>
   <!-- LOGO AND INFO -->
   <div id="page">
     <div id="header">
@@ -74,14 +75,14 @@
 
           <table>
             <tr valign = "top">
-              <td>Select from our vast collection of books!</td>
-              <td><select name ="genre">
+              <td>Select from our vast collection of books! Each $10</td>
+              <td><select id ="bookPick">
                 <option> </option>
-                <option>Hunger Games - Suzanne Collins</option>
-                <option>Sherlock Holmes - Sir Conan Doyle</option>
-                <option>The BFG - Roald Dahl </option>
-                <option>Maze Runner - James Dashner </option>
-                <option>Pride and Prejudice - Jane Austen </option>
+                <option value="1">Hunger Games - Suzanne Collins</option>
+                <option value="2">Sherlock Holmes - Sir Conan Doyle</option>
+                <option value="3">The BFG - Roald Dahl </option>
+                <option value="4">Maze Runner - James Dashner </option>
+                <option value="5">Pride and Prejudice - Jane Austen </option>
             </tr>
           </table>
 
@@ -99,7 +100,7 @@
           <table>
           <tr valign="top">
             <td>Limited time offer:</td>
-            <td><input type="checkbox" name="discount" value="discount"> Take a 50% discount<br></td>
+            <td><input type="checkbox" name="discount" value="discount" id = "thisDiscount"> Take a 50% discount<br></td>
           </tr>
           <tr>
             <td></td>

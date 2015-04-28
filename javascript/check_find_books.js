@@ -12,8 +12,6 @@ function validateEmail(address){
 function validateForm(){
     var feedbackObj = document.getElementById("feedback");
     var name = feedbackObj.name.value;
-    var phone = feedbackObj.phone.value;
-    var title = feedbackObj.title.value;
     var email = feedbackObj.email.value;
     var everythingOK = true;
 
@@ -21,21 +19,25 @@ function validateForm(){
       alert("Invalid name.");
       everythingOK = false;
     }
-    if (!validatePhone(phone)){
-      alert("Invalid phone number");
-      everythingOK = false;
-    }
     if (!validateEmail(email)){
       alert("Invalid email address");
       everythingOK = false;
     }
-    if (!validateName(title)){
-      alert("Invalid book title");
-      everythingOK = false;
-    }
     if (everythingOK){
-      alert("Feedback Submitted. Thank You!");
-      return true;
+      // Find which book was selected
+      var e = document.getElementById("bookPick");
+      var strUser = e.options[e.selectedIndex].text;
+
+      var checkbox_checked = document.getElementById("thisDiscount").checked;
+
+      if (checkbox_checked == true) { // take 50% off
+        alert("Order Submitted. Thank You! \n" + "Book selected: " + strUser + "\nTotal Cost: $5");
+        return true;
+      }
+      else {
+        alert("Order Submitted. Thank You! \n" + "Book selected: " + strUser + "\nTotal Cost: $10");
+        return true;
+      }
     }
     else
        return false;
@@ -44,15 +46,6 @@ function validateForm(){
 function validateName(name){
   var p = name.search(/^[-'\w\s]+$/);
   if (p==0)
-    return true;
-  else
-    return false;
-}
-
-function validatePhone(phone){
-  var p1 = phone.search(/^\d{3}[-\s]{0,1}\d{3}[-\s]{0,1}\d{4}$/);
-  var p2 = phone.search(/^\d{3}[-\s]{0,1}\d{4}$/);
-  if (p1 == 0 || p2 == 0)
     return true;
   else
     return false;
