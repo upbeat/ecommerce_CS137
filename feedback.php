@@ -8,36 +8,14 @@
 </head>
 
 <body>
-  <script type="text/javascript" src="javascript/check_feedback.js"></script>
+  <script type="text/javascript" src="scripts/check_feedback.js"></script>
   <!-- LOGO AND INFO -->
   <div id="page">
-    <div id="header">
-      <div id="logo">
-        <img src="img/bookLogo.png" alt="Book Central's Logo" height="180" width="450" />
-      </div>
-
-      <!-- HEADER LINKS -->
-      <div id="header_links">
-        <a href="contact_info.html" style="text-decoration:none">Contact</a>
-        <a href="feedback.html" style="text-decoration:none">Feedback</a>
-      </div>
-    </div>
-
-    <!-- WELCOME HEADER -->
-    <div id="welcome">
-      <h3>Welcome to Book Central - A place for you to find books!</h3>
-    </div>
-
-    <!-- LINKS -->
-    <div id="links">
-      <a href="index.html" style="text-decoration:none">Home</a>
-      <a href="find_books.html" style="text-decoration:none">Find Books</a>
-      <a href="about_us.html" style="text-decoration:none">About Us</a>
-      <a href="events.html" style="text-decoration:none">Events</a>
-    </div>
-
-    <!-- HORIZONTAL LINE -->
-    <hr size="2" <!-- INFO PARAGRAPH AND IMAGE -->
+    <?php
+    include("common/common_header.php");
+    ?>
+    
+    <!-- INFO PARAGRAPH AND IMAGE -->
     <div id="content">
       <h1>GIVE US YOUR FEEDBACK!</h1>
       <br>

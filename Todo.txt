@@ -1,0 +1,7 @@
+Joseph:
+- Feedback form email
+- Feedback log
+
+Anni:
+- Client-side JS (step 7)
+- Dropdown menu with 2-3 items (popular books, clearance, secret(?))
