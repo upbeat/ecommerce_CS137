@@ -1,14 +1,3 @@
-function validateEmail(address){
-  var p = address.search(/.+@.+/);
-  if (p==0)
-    return true;
-  else
-  {
-    alert("bad email");
-    return false;
-  }
-}
-
 function validateForm(){
     var feedbackObj = document.getElementById("feedback");
     var name = feedbackObj.name.value;
