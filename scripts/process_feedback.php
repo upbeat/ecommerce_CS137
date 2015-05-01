@@ -44,17 +44,17 @@ $display =
 echo $display;
 */
 
-/*
+
 //Log the message in a file called feedback.txt on the web server
-$fileVar = fopen("../data/feedback.txt", "a");
+$fileVar = fopen("../data/feedback.txt", "a")
  or die("Error: Could not open the log file.");
-fwrite($fileVar, "\n-------------------------------------------------------\n");
+fwrite($fileVar, "\n-------------------------------------------------------\n")
  or die("Error: Could not write to the log file.");
-fwrite($fileVar, "Date received: ".date("jS \of F, Y \a\\t H:i:s\n"));
- or die("Error: Could not write date to the log file.");
-fwrite($fileVar, $messageToClient);
- or die("Error: Could not write message to the log file.");
-*/
+fwrite($fileVar, "Date received: ".date("jS \of F, Y \a\\t H:i:s\n"))
+ or die("Error: Could not write to the log file.");
+fwrite($fileVar, $messageToBusiness)
+ or die("Error: Could not write to the log file."); 
+
 
  header('Location: ../feedback_confirmation.php');
 
