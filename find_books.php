@@ -18,7 +18,7 @@
     <!-- INFO PARAGRAPH AND IMAGE -->
     <div id="content">
       <h1>FIND BOOKS</h1>
-      
+
       <br>
       <form id="find" action="" onsubmit="processForm()">
         <fieldset class ="fieldset">
@@ -38,7 +38,7 @@
             <tr valign = "top">
               <td>Select from our vast collection of books!</td>
               <td><select id ="bookPickNormal">
-                <option> </option>
+                <option value = "0"> </option>
                 <option value="1">Hunger Games - Suzanne Collins ($11)</option>
                 <option value="2">Sherlock Holmes - Sir Conan Doyle ($12)</option>
                 <option value="3">The BFG - Roald Dahl ($12)</option>
@@ -47,6 +47,7 @@
               </td>
               <td>Quantity:</td>
               <td><select id ="normalQuantity">
+                  <option value="0">0</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -65,6 +66,7 @@
               </td>
               <td>Quantity:</td>
               <td><select id ="clearanceQuantity">
+                  <option value= 0>0</option>
                   <option value= 1>1</option>
                   <option value= 2>2</option>
                   <option value= 3>3</option>
