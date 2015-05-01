@@ -14,12 +14,12 @@
     <?php
     include("common/common_header.php");
     ?>
-    
+
     <!-- INFO PARAGRAPH AND IMAGE -->
     <div id="content">
       <h1>GIVE US YOUR FEEDBACK!</h1>
       <br>
-      <form id="feedback" action="" onsubmit="validateForm()">
+      <form id="feedback" action="scripts/process_feedback.php" onsubmit="validateForm()" method="post">
         <fieldset class ="fieldset">
           <legend>Feedback</legend>
           <table summary = "Feedback Form">
