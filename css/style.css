@@ -50,8 +50,8 @@ div#links{
 }
 
 div#links a {
-  padding-left: 67px;
-  padding-right: 67px;
+  padding-left: 46px;
+  padding-right: 46px;
   text-decoration: none;
   color: #000;
   height: 64px;
@@ -59,6 +59,11 @@ div#links a {
   display: block;
   float: left;
   border-left: 1px solid #7f8083;
+}
+
+
+div#links a:hover {
+  background-color: #5FB361;
 }
 
 #content{

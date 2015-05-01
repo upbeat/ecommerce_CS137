@@ -18,7 +18,12 @@
 <!-- LINKS -->
 <div id="links">
   <a href="index.php" style="text-decoration:none">Home</a>
-  <a href="find_books.php" style="text-decoration:none">Find Books</a>
+  <a href="find_books.php" style="text-decoration:none">Catalog</a>
+  <!--<div id="m3" onmouseover="show('m3')">
+    <a href="#">Popular Books</a>
+    <a href="#">Clearance Books</a>
+  </div>-->
+  <a href="find_books.php" style="text-decoration:none">Order Books</a>
   <a href="about_us.php" style="text-decoration:none">About Us</a>
   <a href="events.php" style="text-decoration:none">Events</a>
 </div>

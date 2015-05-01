@@ -3,5 +3,5 @@ Joseph:
 - Feedback log
 
 Anni:
-- Client-side JS (step 7)
 - Dropdown menu with 2-3 items (popular books, clearance, secret(?))
+- Order book form should show quantity 0, but not have it as a dropdown option
