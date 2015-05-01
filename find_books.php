@@ -18,9 +18,9 @@
     <!-- INFO PARAGRAPH AND IMAGE -->
     <div id="content">
       <h1>FIND BOOKS</h1>
-      
+
       <br>
-      <form id="find" action="" onsubmit="processForm()">
+      <form id="find" action="scripts/process_purchase.php" onsubmit="processForm()" method="post">
         <fieldset class ="fieldset">
           <legend>Order Books</legend>
           <table summary = "Find Books">
@@ -38,7 +38,7 @@
             <tr valign = "top">
               <td>Select from our vast collection of books!</td>
               <td><select id ="bookPickNormal">
-                <option> </option>
+                <option > </option>
                 <option value="1">Hunger Games - Suzanne Collins ($11)</option>
                 <option value="2">Sherlock Holmes - Sir Conan Doyle ($12)</option>
                 <option value="3">The BFG - Roald Dahl ($12)</option>
