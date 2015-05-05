@@ -1,4 +1,5 @@
 <div id="header">
+<script type="text/javascript" src="scripts/menu.js"></script>
   <div id="logo">
     <img src="img/bookLogo.png" alt="Book Central's Logo" height="180" width="450" />
   </div>
@@ -16,16 +17,28 @@
 </div>
 
 <!-- LINKS -->
-<div id="links">
+<!--<div id="links">
   <a href="index.php" style="text-decoration:none">Home</a>
   <a href="find_books.php" style="text-decoration:none">Catalog</a>
-  <!--<div id="m3" onmouseover="show('m3')">
-    <a href="#">Popular Books</a>
-    <a href="#">Clearance Books</a>
-  </div>-->
   <a href="find_books.php" style="text-decoration:none">Order Books</a>
   <a href="about_us.php" style="text-decoration:none">About Us</a>
   <a href="events.php" style="text-decoration:none">Events</a>
+</div> -->
+
+<div id="mainMenu" onmouseout="hide()">
+ <ul class="Links">
+   <li><a href="index.php" onmouseover="show('m1')">Home</a></li>
+   <li><a href="find_books.php" onmouseover="show('m2')">Order Books</a></li>
+   <li><a href="about_us.php" onmouseover="show('m2')">About Us</a></li>
+   <li>
+     <a href="#" onmouseover="show('m3')">Catalog</a>
+     <div id="m3" onmouseover="show('m3')">
+       <a href="index.php">Featured</a>
+       <a href="index.php">Clearance</a>
+       <a href="index.php">Secret</a>
+     </div>
+   </li>
+ </ul>
 </div>
 
 <!-- HORIZONTAL LINE -->

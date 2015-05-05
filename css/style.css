@@ -44,7 +44,27 @@ h1 {
   margin-bottom: 0px;
 }
 
-div#links{
+/* for the always-visible menu options */
+.Links li {
+padding: 0;
+margin: 0;
+float: left; /*Move list elements up to form a horizontal line*/
+list-style: none; /*Remove the bullet markers from the unordered list*/
+font: bold .7em Verdana;
+}
+
+.Links li a {
+display: block; /*Let’s specify a width; can’t specify inline element width*/
+width: 159px;
+padding: 4px 10px;
+margin: 0 1px 0 0;;
+background-color: #ADD8E6;
+color: #FFF;
+text-align: center;
+text-decoration: none;
+}
+
+/*div#links{
   background-color: #ADD8E6;
   height: 64px;
 }
@@ -59,7 +79,7 @@ div#links a {
   display: block;
   float: left;
   border-left: 1px solid #7f8083;
-}
+}*/
 
 
 div#links a:hover {

@@ -29,6 +29,14 @@
     </div>
     <hr size="2">
 
+    <button onclick="getElementById('demo').innerHTML=Date()">The time is?</button>
+
+    <p id="demo"></p>
+
+    <button onclick="getElementById('demo2').innerHTML='Hunger Games'">Secret featured book?</button>
+
+    <p id="demo2"></p>
+
     <footer>
       <small>&copy Copyright 2015, Example Corporation. All Rights Reserved. </small>
     </footer>
