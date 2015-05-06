@@ -35,6 +35,7 @@
      <div id="m3" onmouseover="show('m3')">
        <a href="featured_books_catalog.php">Featured</a>
        <a href="clearance_books_catalog.php">Clearance</a>
+       <a href="coming_soon.php">Antique</a>
      </div>
    </li>
  </ul>
