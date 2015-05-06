@@ -6,7 +6,7 @@
   <title>Book Central - An eCommerce Website for books</title>
 </head>
 
-<body">
+<body>
   <!-- LOGO AND INFO -->
   <div id="page">
 
@@ -24,21 +24,28 @@
             <td><img src = "bookCoverImg/cover3.jpg" alt = "Sherlock" height = "200" width = "150"></td>
             <td><img src = "bookCoverImg/cover4.jpg" alt = "BFG" height = "200" width = "157"></td>
             <td><img src = "bookCoverImg/cover1.jpg" alt = "Maze Runner" height = "200" width = "150"></td>
-            <td><img src = "bookCoverImg/cover2.jpg" alt = "Pride" height = "200" width = "150"></td>
           </tr>
           <tr>
             <td>Hunger Games - Suzanne Collins ($11)</td>
             <td>Sherlock Holmes - Sir Conan Doyle ($12)</td>
             <td>The BFG - Roald Dahl ($12)</td>
             <td>Maze Runner - James Dashner ($7)</td>
+          </tr>
+          <tr>
+            <td><img src = "bookCoverImg/cover2.jpg" alt = "Pride" height = "200" width = "150"></td>
+          </tr>
+          <tr>
             <td>Pride and Prejudice - Jane Austen ($7)</td>
           </tr>
+
         </table>
       </div>
 
-    <footer>
-      <small>&copy Copyright 2015, Example Corporation. All Rights Reserved. </small>
-    </footer>
+      <!-- HORIZONTAL LINE -->
+      <hr size="2">
+      <?php
+      include("common/common_footer.php");
+      ?>
   </div>
 </body>
 

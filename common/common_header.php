@@ -16,15 +16,6 @@
   <h3>Welcome to Book Central - A place for you to find books!</h3>
 </div>
 
-<!-- LINKS -->
-<!--<div id="links">
-  <a href="index.php" style="text-decoration:none">Home</a>
-  <a href="find_books.php" style="text-decoration:none">Catalog</a>
-  <a href="find_books.php" style="text-decoration:none">Order Books</a>
-  <a href="about_us.php" style="text-decoration:none">About Us</a>
-  <a href="events.php" style="text-decoration:none">Events</a>
-</div> -->
-
 <div id="mainMenu" onmouseout="hide()">
  <ul class="Links">
    <li><a href="index.php" onmouseover="show('m1')">Home</a></li>
@@ -42,4 +33,4 @@
 </div>
 
 <!-- HORIZONTAL LINE -->
-<hr size="2"
+<hr size="2">

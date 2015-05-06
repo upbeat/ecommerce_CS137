@@ -85,6 +85,10 @@
     </div>
 
     <!-- HORIZONTAL LINE -->
+    <hr size="2">
+    <?php
+    include("common/common_footer.php");
+    ?>
 
   </div>
 </body>

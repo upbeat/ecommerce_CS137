@@ -31,8 +31,6 @@
       </div>
     </div>
 
-    <!-- HORIZONTAL LINE -->
-
   </div>
 </body>
 

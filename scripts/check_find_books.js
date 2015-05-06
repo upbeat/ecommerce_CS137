@@ -65,7 +65,8 @@ function processForm(){
 
       if (checkbox_checked == true) { // take 50% off
         totalCost /= 2;
-        alert("Order Submitted with discount. Thank You! \n" + "Purchased:\n" +
+        alert("Order Submitted with discount. Thank You! \n" +
+              "An email confirmation has been sent\n" + "Purchased:\n" +
               bookNormalTitle +  "\n Quantity: " + normalQuantity.toString() + " " +
               "Cost: " + normalCost.toString() +"\n" +
               bookClearanceTitle + "\n Quantity: " + clearanceQuantity.toString() + " " +
@@ -74,7 +75,8 @@ function processForm(){
         return true;
       }
 
-      alert("Order Submitted. Thank You! \n" + "Purchased:\n" +
+      alert("Order Submitted. Email Confirmation Sent. Thank You! \n" +
+            "An email confirmation has been sent\n" + "Purchased:\n" +
             bookNormalTitle +  "\n Quantity: " + normalQuantity.toString() + " " +
             "Cost: $" + normalCost.toString() +"\n" +
             bookClearanceTitle + "\n Quantity: " + clearanceQuantity.toString() + " " +

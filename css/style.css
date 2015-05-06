@@ -29,11 +29,11 @@ div#logo{
 div#header_links{
   height: 70px;
   float: right;
-  padding-top: 60px;
+  padding-top: 100px;
 }
 
 div#header_links a{
-  padding: 12px;
+  padding: 14px;
 }
 
 div #welcome {
@@ -90,17 +90,13 @@ font-size: 20px;
 }
 
 #content{
-  alight: center;
+  padding-left: 30px;
+  align: center;
 }
 
 #info{
   float: left;
   width: 500px;
-}
-
-#ReaderImg {
-  align: right;
-  padding-right: 20px;
 }
 
 #coverRotate {
@@ -111,4 +107,9 @@ font-size: 20px;
 
 #footer {
   text-align: center;
+  padding-bottom: 25px;
+}
+
+#site_map{
+  float: right;
 }

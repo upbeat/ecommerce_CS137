@@ -32,9 +32,11 @@
         </table>
       </div>
 
-    <footer>
-      <small>&copy Copyright 2015, Example Corporation. All Rights Reserved. </small>
-    </footer>
+      <!-- HORIZONTAL LINE -->
+      <hr size="2">
+      <?php
+      include("common/common_footer.php");
+      ?>
   </div>
 </body>
 

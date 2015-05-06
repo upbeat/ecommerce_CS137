@@ -33,18 +33,6 @@ $messageToBusiness =
 
 mail($business_email, "Book Central Customer Feedback", $messageToBusiness, "Customer Feedback Received");
 
-//header('Location: ../feedback_confirmation.php');
-/*
-//Transform the confirmation message to the client into XHTML format and display it
-$display = str_replace("\r\n", "<br />", $messageToClient);
-$display =
- "<html><head><title>Your Message</title></head><body><tt>".
- $display.
- "</tt></body></html>";
-echo $display;
-*/
-
-
 //Log the message in a file called feedback.txt on the web server
 $fileVar = fopen("../data/feedback.txt", "a")
  or die("Error: Could not open the log file.");

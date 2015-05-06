@@ -27,11 +27,11 @@
       <div id="info">
         <p>It is the mission of Book Central to provide book enthusiasts with the books they are seeking at an affordable price! Our friendly staff will eagerly and happily assist you in this endeavor.</p>
         <p>We are gathered here today to find you educational, enjoyable, and great books. Our hope is that you will always be striving to learn more about the world that we live in. </p>
-        <img id = "worm" src="img/bookWorm.jpg" alt="Eternal peace" height="85">
+        <img id = "worm" src="img/bookWorm.jpg" alt="Eternal peace" height="90">
       </div>
 
       <div id="ReaderImg">
-        <img id = "coverRotate" src="" alt="Eternal peace" height="250" width="150">
+        <img id = "coverRotate" src="" alt="Eternal peace" height="250" width="170">
       </div>
     </div>
     <hr size="2">
@@ -41,9 +41,10 @@
 
     <p id="demo"></p>
 
-    <footer>
-      <small>&copy Copyright 2015, Example Corporation. All Rights Reserved. </small>
-    </footer>
+    <?php
+    include("common/common_footer.php");
+    ?>
+
   </div>
 </body>
 

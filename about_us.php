@@ -36,12 +36,10 @@
     </div>
 
     <!-- HORIZONTAL LINE -->
-    <div id = "footer">
-      <hr size="2">
-      <footer>
-        <small>&copy Copyright 2015, Example Corporation. All Rights Reserved. </small>
-      </footer>
-    </div>
+    <hr size="2">
+    <?php
+    include("common/common_footer.php");
+    ?>
   </div>
 </body>
 
