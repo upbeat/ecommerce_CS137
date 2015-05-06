@@ -21,6 +21,6 @@ function rotate()
 
 function startRotation()
 {
- document.getElementById('coverRotate').src=imageArray[4];
+ document.getElementById('coverRotate').src=imageArray[0];
  setInterval('rotate()', 2000);
 }

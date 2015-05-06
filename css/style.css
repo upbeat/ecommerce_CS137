@@ -64,7 +64,7 @@ text-align: center;
 text-decoration: none;
 }
 
-/*div#links{
+div#links{
   background-color: #ADD8E6;
   height: 64px;
 }
@@ -79,13 +79,13 @@ div#links a {
   display: block;
   float: left;
   border-left: 1px solid #7f8083;
-}*/
+}
 
-
+/*
 div#links a:hover {
   background-color: #5FB361;
 }
-
+*/
 #content{
 
 }
@@ -96,7 +96,8 @@ div#links a:hover {
 }
 
 #ReaderImg {
-  padding-left: 5px;
+  align: right;
+  padding-right: 20px;
 }
 
 

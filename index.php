@@ -24,7 +24,7 @@
       </div>
 
       <div id="ReaderImg">
-        <img id = "coverRotate" src="" alt="Eternal peace" height="200" width="300">
+        <img id = "coverRotate" src="" alt="Eternal peace" height="250" width="150">
       </div>
     </div>
     <hr size="2">
