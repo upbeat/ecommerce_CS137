@@ -64,28 +64,28 @@ text-align: center;
 text-decoration: none;
 }
 
-div#links{
+/* for the drop-down menu options */
+.Links div {
+  position: absolute; /*Takes menu strip out of the “normal flow”*/
   background-color: #ADD8E6;
-  height: 64px;
+  border: 1px solid #fff;
+  visibility: hidden; /*Adjusted by calls to show() and hide()*/
 }
-
-div#links a {
-  padding-left: 46px;
-  padding-right: 46px;
+.Links div a {
+  display: block; /*Let’s specify a width; can’t specify inline element width*/
+  width: 156px;
+  padding: 5px 10px;
+  background-color: #ADD8E6;
+  color: #FFF;
+  text-align: left;
   text-decoration: none;
-  color: #000;
-  height: 64px;
-  line-height: 64px;
-  display: block;
-  float: left;
-  border-left: 1px solid #7f8083;
+  font: bold 90% Verdana;
+}
+.Links div a:hover { /*To change color when the mouse hovers over a link*/
+  background-color: #4876FF;
+  color: #FFF;
 }
 
-/*
-div#links a:hover {
-  background-color: #5FB361;
-}
-*/
 #content{
 
 }
