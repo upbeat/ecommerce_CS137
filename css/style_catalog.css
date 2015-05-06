@@ -1,0 +1,12 @@
+div#book_catalog{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+table, td {
+    text-align: center;
+    horizontal-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    border: solid black;
+}

@@ -33,9 +33,8 @@
    <li>
      <a href="#" onmouseover="show('m3')">Catalog</a>
      <div id="m3" onmouseover="show('m3')">
-       <a href="index.php">Featured</a>
-       <a href="index.php">Clearance</a>
-       <a href="index.php">Secret</a>
+       <a href="featured_books_catalog.php">Featured</a>
+       <a href="clearance_books_catalog.php">Clearance</a>
      </div>
    </li>
  </ul>
