@@ -46,22 +46,24 @@ h1 {
 
 /* for the always-visible menu options */
 .Links li {
-padding: 0;
+padding: 0 0 20px 0;
 margin: 0;
 float: left; /*Move list elements up to form a horizontal line*/
 list-style: none; /*Remove the bullet markers from the unordered list*/
-font: bold .7em Verdana;
+font: .7em Arial;
 }
 
 .Links li a {
 display: block; /*Let’s specify a width; can’t specify inline element width*/
-width: 159px;
+width: 169px;
 padding: 4px 10px;
 margin: 0 1px 0 0;;
 background-color: #ADD8E6;
 color: #FFF;
 text-align: center;
 text-decoration: none;
+height: 50px;
+font-size: 20px;
 }
 
 /* for the drop-down menu options */
@@ -73,13 +75,14 @@ text-decoration: none;
 }
 .Links div a {
   display: block; /*Let’s specify a width; can’t specify inline element width*/
-  width: 156px;
+  width: 168px;
   padding: 5px 10px;
   background-color: #ADD8E6;
   color: #FFF;
   text-align: left;
   text-decoration: none;
-  font: bold 90% Verdana;
+  font: 90% Arial;
+  font-size: 20px;
 }
 .Links div a:hover { /*To change color when the mouse hovers over a link*/
   background-color: #4876FF;
@@ -98,6 +101,11 @@ text-decoration: none;
 #ReaderImg {
   align: right;
   padding-right: 20px;
+}
+
+#coverRotate {
+  margin-left:70px;
+  margin-bottom: 30px;
 }
 
 

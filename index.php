@@ -4,6 +4,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="scripts/rotate.js"></script>
+  <script type="text/javascript" src="scripts/buttons.js"></script>
   <title>Book Central - An eCommerce Website for books</title>
 </head>
 
@@ -29,13 +30,9 @@
     </div>
     <hr size="2">
 
-    <button onclick="getElementById('demo').innerHTML=Date()">The time is?</button>
+    <button onclick="getTime()">What day is it?</button>
 
     <p id="demo"></p>
-
-    <button onclick="getElementById('demo2').innerHTML='Hunger Games'">Secret featured book?</button>
-
-    <p id="demo2"></p>
 
     <footer>
       <small>&copy Copyright 2015, Example Corporation. All Rights Reserved. </small>
